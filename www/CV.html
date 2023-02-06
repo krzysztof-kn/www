@@ -1,0 +1,104 @@
+<!DOCTYPE html> 
+<html lang="pl"> 
+<head> 
+    <meta charset="utf-8"/> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/> 
+
+
+<title>Krzysztof K-n</title>
+
+<meta name="description" content="Naprawiam pralki i sprzedaje zlewozmywaki"/> 
+<meta name="keywords" content="pralka,zmywka,zlew,bataty,armaty"/> 
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css"/> 
+<link rel="stylesheet" href="css/fontello.css" type="text/css"/> 
+
+<script type="text/javascript">
+
+function odliczanie()
+{
+    var dzisiaj = new Date();
+
+    var godzina = dzisiaj.getHours();
+    var minuta = dzisiaj.getMinutes();
+    var sekunda = dzisiaj.getSeconds();
+
+    document.getElementById("zegar").innerHTML = godzina+":"+minuta+":"+sekunda
+
+    setTimeout("odliczanie()",1000)
+
+
+}
+
+
+</script>
+
+
+</head>
+
+
+<body onload="odliczanie();"> 
+    
+    <div id="container">
+       
+       
+
+        <div class="rectangle">
+            <div id="logo"><a href="Index.html" class="tilelink2">  Krzysztof K-n</div></a>
+            <div id="zegar"></div>
+    
+            <div style="clear: both;"></div>
+        </div>
+
+        <div class="square">
+            <div class="tile1">
+               <a href="omnie.html" class="tilelink"> <i class="icon-user"></i><br/>O mnie!</a>
+
+            </div>
+        <a href="oferta.html">
+
+            <div class="tile1">
+                <i class="icon-wrench"></i><br/>Usługi naprawczo przewozowe 
+            </div>
+        </a>
+
+            <div class="tile2">
+                <a href="CV.html" class="tilelink"><i class="icon-graduation-cap"></i><br/>CV </a>
+            </div>
+            <div class="tile3"><a href="Kontak.html" class="tilelink"><br/>Kontakt
+                <i class="icon-mail"></i></a>
+            </div>
+            <div style="clear: both;"></div>
+
+            <div class="tile4"><i>Zułte taksuwki na raz przewiozą 10 zlewozmywaków starego</i><br/>~Padre</div>
+        </div>
+        <div class="square">
+            <div class="tile5">Wykształcenie<br/><br/>
+                Wychowały mnie kanały telewizyjne i te z wodą, moim idolem jest norek z miodowych lat. Również u niego skończyłem wyższą szkolę kanałów z wyruznieniem!
+            </div>
+            <div class="yt">
+                <a href="http://youtube.com" target="_blank" class="sociallink"><i class="icon-youtube"></i></a>
+            </div>
+            <div class="ig">
+                <a href="https://www.instagram.com" target="_blank" class="sociallink"> <i class="icon-instagram-1"></i></a>
+            </div>
+            <div class="fb">
+                <a href="https://www.facebook.com/supichrzan1234/" target="_blank" class="sociallink"> <i class="icon-facebook-rect"></i></a>
+            </div>
+            <dive style="clear: both;"></dive>
+        </div>
+        <dive style="clear: both;"></dive>
+
+        <div class="rectangle">2023 &copy; Krzysztof K-n - mistrz pralek i zlewozmywaków <i class="icon-mail-alt"></i>krzysztof.kaczan7@gmail.com</div>
+       
+
+
+
+    </div>
+    
+</body>
+
+
+</html>

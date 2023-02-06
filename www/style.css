@@ -1,0 +1,189 @@
+@font-face {
+    font-family: "JosefinSans";
+    src: url(JosefinSans-Light.ttf) format("truetype");
+}
+
+
+body
+{
+font-size: 20px;
+background-color: #262525;
+color: #ffffff
+}
+
+#container
+{
+width: 1600px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.rectangle
+{
+width: 1560px;
+margin: 20px;
+text-align: center;
+float: left;
+color: #ffffff;
+}
+.square 
+{
+width: 50%;
+float: left;
+}
+#logo
+{
+font-family: "JosefinSans", sans-serif;
+font-size: 70px;
+float: left;     
+width: 1000px;
+color: #ffffff;
+margin-top: 10px;
+margin-bottom: 10px;
+text-align: left;
+}
+#zegar
+{
+font-family: "JosefinSans", sans-serif;
+float: left;  
+font-size: 70px;
+color: #ffffff;
+margin-top: 10px;
+margin-bottom: 10px;
+text-align: left;
+}
+.tile1 
+{
+margin: 15px;
+width: 350px;
+height: 208px;
+background-color: #3095d3;
+float: left;
+text-align: center;
+color: #ffffff;
+font-size: 30px;
+font-family: "JosefinSans", sans-serif;
+
+}
+.tile1:hover{
+background-color: #2084d2;
+
+}
+
+.tile2 
+{
+margin: 15px;
+width: 350px;
+height: 208px;
+background-color: #676767;
+float: left;
+text-align: center;
+color: #ffffff;
+font-size: 30px;
+font-family: "JosefinSans", sans-serif;
+line-height: 160%;
+}
+.tile2:hover{
+    background-color: #565656;
+    
+    }
+.tile3 
+{
+margin: 15px;
+width: 350px;
+height: 208px;
+background-color: #3d7d55;
+float: left;
+text-align: center;
+color: #ffffff;
+font-size: 30px;
+font-family: "JosefinSans", sans-serif;
+}
+.tile3:hover{
+    background-color: #2d6d44;
+    
+    }
+
+.tile4 
+{
+margin: 15px;
+width: 650px;
+height: 128px;
+background-color: #b96612;
+text-align: center;
+color: #ffffff;
+font-size: 30px;
+font-family: "JosefinSans", sans-serif;
+padding: 40px;
+line-height: 150%;
+}
+.tile5 
+{
+margin: 15px;
+width: 690px;
+height: 406px;
+background-color: #7c7c7d;
+text-align: justify;
+color: #ffffff;
+font-size: 29px;
+font-family: "JosefinSans", sans-serif;
+padding: 20px;
+}
+.yt
+{
+margin: 10px;
+width: 233px;
+height: 208px;
+background-color: #d94348;
+float: left;
+}
+.yt:hover{
+    background-color: #d83237;
+    
+    }
+.ig
+{
+margin: 10px;
+width: 233px;
+height: 208px;
+background-color: #3f729b;
+float: left;
+}
+.ig:hover{
+    background-color: #2f618b;
+    
+    }
+.fb
+{
+margin: 10px;
+width: 233px;
+height: 208px;
+background-color: #4668b3;
+float: left;
+}
+.fb:hover{
+    background-color: #3557b2;
+    
+    }
+    a.tilelink
+    {
+        color: #ffffff;
+        text-decoration: none;
+        display: block;
+        width: 350px;
+        height: 208px;
+    }
+    a.sociallink
+    {
+        color: #262525;
+        text-decoration: none;
+        display: block;
+        width: 233px;
+        height: 208px;
+    }
+    a.tilelink2
+    {
+        color: #ffffff;
+        text-decoration: none;
+       
+    }
